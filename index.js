@@ -45,7 +45,7 @@ console.log(teclados)
 let buscar = prompt ('¿Desdea buscar un producto? \n Ingrese "si" o "no" ')
 
 if (buscar === "si"){
-    let modo = parseInt(prompt('¿Desea buscar por marca de teclado, o por el minimo precio que desee? \n Opciones 1 y 2 respectivamente.'))
+    let modo = parseInt(prompt('¿Desea buscar por el minimo precio que desee o por marca del teclado? \n Opciones 1 y 2 respectivamente.'))
     if (modo === 1){
         let pMin = parseFloat(prompt("Ingrese el precio minimo: "));
         let tecladosMenorPrecio = teclados.filter((teclados) => teclados.precio < pMin); 
