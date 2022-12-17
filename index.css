@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: aliceblue;
+    background-image: url(images/back.jpg);
+}
